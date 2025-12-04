@@ -1,0 +1,14 @@
+:root {
+    --color-primary: rgb(240, 240, 240);
+    --color-secondary: rgb(0, 0, 0);
+    --background-transition-time: 200ms;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

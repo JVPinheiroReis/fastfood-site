@@ -1,0 +1,21 @@
+import './index.css'
+
+export default function Header() {
+    return (
+        <div className="header">
+            <div className="icon"></div>
+            <ul className="navbar">
+                <li>
+                    <a className="navbar-link" href="/about">
+                        Link 1
+                    </a>
+                </li>
+                <li>
+                    <a className="navbar-link" href="/contacts">
+                        Link 2
+                    </a>
+                </li>
+            </ul>
+        </div>
+    )
+}
