@@ -6,12 +6,12 @@ export default function Header() {
             <div className="icon"></div>
             <ul className="navbar">
                 <li>
-                    <a className="navbar-link" href="/about">
+                    <a className="filled-button" href="/about">
                         Link 1
                     </a>
                 </li>
                 <li>
-                    <a className="navbar-link" href="/contacts">
+                    <a className="filled-button" href="/contacts">
                         Link 2
                     </a>
                 </li>

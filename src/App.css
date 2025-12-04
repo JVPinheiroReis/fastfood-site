@@ -1,0 +1,28 @@
+.filled-button {
+    display: block;
+
+    background-color: var(--red);
+    color: var(--color-secondary);
+    border: solid 1px black;
+
+    margin-right: 10px;
+    margin-left: 10px;
+
+    padding: 5px;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px black;
+
+    transform: translate(-1px, -1px);
+    transition: all 100ms ease-out;
+}
+
+.filled-button:hover {
+    box-shadow: 2px 2px black;
+    transform: translate(-2px, -2px);
+}
+
+.filled-button:active {
+    box-shadow: none;
+    transform: none;
+}
