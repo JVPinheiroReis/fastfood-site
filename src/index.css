@@ -39,6 +39,15 @@
 }
 
 body {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 10px;
+
+    border: solid 1px lightgray;
+    border-radius: 10px;
+
+    box-shadow: 2px 5px 5px 2px lightgray;
+
     font-family: "Roboto", sans-serif;
 }
 
