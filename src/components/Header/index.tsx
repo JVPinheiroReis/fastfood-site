@@ -4,9 +4,9 @@ import './index.css'
 
 export default function Header() {
     return (
-        <div className="header">
+        <header className="header">
             <Icon />
             <Navbar />
-        </div>
+        </header>
     )
 }

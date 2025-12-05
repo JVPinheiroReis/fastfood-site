@@ -1,25 +1,29 @@
+.title {
+    font-size: 2em;
+}
+
 .filled-button {
     display: block;
 
     background-color: var(--red);
     color: var(--color-secondary);
-    border: solid 1px black;
+    border: solid 0.1em black;
 
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
 
-    padding: 5px;
-    border-radius: 5px;
+    padding: 0.25em;
+    border-radius: 0.25em;
 
-    box-shadow: 1px 1px black;
+    box-shadow: 0.1em 0.1em black;
 
-    transform: translate(-1px, -1px);
+    transform: translate(-0.1em, -0.1em);
     transition: all 100ms ease-out;
 }
 
 .filled-button:hover {
-    box-shadow: 2px 2px black;
-    transform: translate(-2px, -2px);
+    box-shadow: 0.2em 0.2em black;
+    transform: translate(-0.2em, -0.2em);
 }
 
 .filled-button:active {
