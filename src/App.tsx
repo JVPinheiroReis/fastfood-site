@@ -1,5 +1,7 @@
-import Carousel from '@/components/Carousel'
+import testSvg from '@/assets/icon.svg'
 import Header from '@/components/Header'
+import ImageFrame from '@/components/ImageFrame'
+
 import './App.css'
 
 export default function App() {
@@ -8,7 +10,7 @@ export default function App() {
             <Header />
             <h1 className="title">Fast Food Site Header</h1>
             <p>Aqui se vende: hamburger, batata frita...</p>
-            <Carousel />
+            <ImageFrame src={testSvg} alt="some test icon" />
         </div>
     )
 }

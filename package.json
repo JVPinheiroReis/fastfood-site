@@ -10,7 +10,7 @@
         "lint": "biome lint --unsafe --write .",
         "format": "biome format --unsafe --write .",
         "fix": "biome check --unsafe --write .",
-        "test": "biome check && tsc --noEmit"
+        "test": "biome check && tsc -b --noEmit"
     },
     "dependencies": {
         "react": "^19.2.0",
