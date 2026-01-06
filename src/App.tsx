@@ -10,7 +10,11 @@ export default function App() {
             <Header />
             <h1 className="title">Fast Food Site Header</h1>
             <p>Aqui se vende: hamburger, batata frita...</p>
-            <ImageFrame src={testSvg} alt="some test icon" />
+            <ImageFrame
+                src={testSvg}
+                alt="some test icon"
+                desc="A SVG image just for test the description"
+            />
         </div>
     )
 }
