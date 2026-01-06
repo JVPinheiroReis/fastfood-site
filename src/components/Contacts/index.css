@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-li {
+.contacts-wrapper li {
     justify-content: center;
     align-content: center;
 
