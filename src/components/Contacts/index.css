@@ -1,0 +1,14 @@
+.contacts-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+}
+
+li {
+    justify-content: center;
+    align-content: center;
+
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+}

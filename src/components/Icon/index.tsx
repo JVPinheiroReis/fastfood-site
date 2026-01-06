@@ -4,7 +4,7 @@ import './index.css'
 export default function Icon() {
     return (
         <div className="icon-container">
-            <img className="icon" src={iconSvg} alt="icon" />
+            <img className="icon-image" src={iconSvg} alt="icon" />
         </div>
     )
 }
