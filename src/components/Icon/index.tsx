@@ -1,4 +1,5 @@
 import iconSvg from '@/assets/icon.svg'
+
 import './index.css'
 
 export default function Icon() {
