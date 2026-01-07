@@ -7,7 +7,7 @@ export default function App() {
     return (
         <div>
             <Header />
-            <h1 className="title">Fast Food Site Header</h1>
+            <h1 className="title">Big Foods</h1>
             <ProductPannel />
         </div>
     )
