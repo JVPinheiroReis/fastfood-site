@@ -14,28 +14,28 @@ export default function ProductPannel() {
                 <ImageFrame
                     src={burgerWithCheeseAndBacon}
                     alt="some test icon"
-                    desc="A burger with cheese and bacon."
+                    desc="Hambúrguer com queijo e bacon"
                 />
             </li>
             <li>
                 <ImageFrame
                     src={burgerWithCheese}
                     alt="some test icon"
-                    desc="A classic burger with meat and cheese."
+                    desc="Hambúrguer com queijo"
                 />
             </li>
             <li>
                 <ImageFrame
                     src={frenchFriesAndBurger}
                     alt="some test icon"
-                    desc="French fries portion"
+                    desc="Porção de batatas fritas"
                 />
             </li>
             <li>
                 <ImageFrame
                     src={milkshake}
                     alt="some test icon"
-                    desc="A delicious milkshake"
+                    desc="Milkshake"
                 />
             </li>
         </ul>

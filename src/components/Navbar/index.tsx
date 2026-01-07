@@ -5,12 +5,12 @@ export default function Navbar() {
         <ul className="navbar">
             <li>
                 <a className="filled-button" href="/about">
-                    Link 1
+                    Sobre
                 </a>
             </li>
             <li>
                 <a className="filled-button" href="/contacts">
-                    Link 2
+                    Contato
                 </a>
             </li>
         </ul>

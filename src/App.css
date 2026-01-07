@@ -1,5 +1,11 @@
-.title {
+.main h1 {
     font-size: 2em;
+    font-weight: 500;
+}
+
+.main h2 {
+    font-size: 1.5em;
+    font-weight: 500;
 }
 
 .filled-button {
@@ -7,11 +13,11 @@
 
     background-color: var(--red);
     color: var(--color-secondary);
+    font-size: 1.1em;
     border: solid 0.1em black;
 
     margin-right: 0.5em;
     margin-left: 0.5em;
-
     padding: 0.25em;
     border-radius: 0.25em;
 

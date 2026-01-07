@@ -5,9 +5,10 @@ import './App.css'
 
 export default function App() {
     return (
-        <div>
+        <div className="main">
             <Header />
-            <h1 className="title">Big Foods</h1>
+            <h1>Big Foods</h1>
+            <h2>Veja nossos produtos</h2>
             <ProductPannel />
         </div>
     )
