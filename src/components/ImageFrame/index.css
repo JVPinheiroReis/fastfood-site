@@ -1,4 +1,4 @@
-.frame-wrapper {
+.image-card {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -11,7 +11,7 @@
     border: 1px solid black;
 }
 
-.frame-image {
+.image-card__img {
     position: absolute;
     object-fit: cover;
 
@@ -19,7 +19,7 @@
     height: 100%;
 }
 
-.frame-card {
+.image-card__caption {
     justify-content: center;
     align-content: center;
     position: absolute;
@@ -34,13 +34,13 @@
     color: white;
 }
 
-.frame-wrapper:hover .frame-card {
+.image-card:hover .image-card__caption {
     transition: all 0.5s;
 
     opacity: 1;
 }
 
-.frame-description {
+.image-card__description {
     text-align: center;
 
     margin: 0;

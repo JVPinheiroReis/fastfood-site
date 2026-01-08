@@ -9,7 +9,7 @@ import './index.css'
 
 export default function ProductPannel() {
     return (
-        <ul className="product-pannel">
+        <ul className="product-list">
             <li>
                 <ImageFrame
                     src={burgerWithCheeseAndBacon}

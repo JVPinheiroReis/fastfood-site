@@ -3,7 +3,7 @@ import './index.css'
 export default function Navbar() {
     return (
         <nav>
-            <ul className="navbar">
+            <ul className="nav-menu">
                 <li>
                     <a className="filled-button" href="/about">
                         Sobre

@@ -1,11 +1,17 @@
-.contacts-wrapper {
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact-list {
     display: flex;
     flex-direction: row;
 
     margin: 0;
 }
 
-.contacts-wrapper li {
+.contact-list li {
     justify-content: center;
     align-content: center;
 

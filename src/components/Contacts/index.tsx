@@ -2,8 +2,8 @@ import './index.css'
 
 export default function Contacts() {
     return (
-        <address>
-            <ul className="contacts-wrapper">
+        <address className="contact-container">
+            <ul className="contact-list">
                 <li>
                     <a href="tel:+5562999990000">Telefone</a>
                 </li>

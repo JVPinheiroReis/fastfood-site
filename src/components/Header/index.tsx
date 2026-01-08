@@ -6,8 +6,8 @@ import './index.css'
 
 export default function Header() {
     return (
-        <header className="header">
-            <div className="header-info">
+        <header className="page-header">
+            <div className="page-header__branding">
                 <Icon />
                 <Contacts />
             </div>

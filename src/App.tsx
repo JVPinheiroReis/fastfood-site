@@ -6,7 +6,7 @@ import WhoWeAre from './components/WhoWeAre'
 
 export default function App() {
     return (
-        <div className="main">
+        <div className="app-container">
             <Header />
             <main>
                 <h1>Big Foods</h1>

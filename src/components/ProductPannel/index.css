@@ -1,4 +1,4 @@
-.product-pannel {
+.product-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -10,7 +10,7 @@
     gap: 0.2em;
 }
 
-.product-pannel li {
+.product-list li {
     display: flex;
     justify-content: center;
     flex: 1;

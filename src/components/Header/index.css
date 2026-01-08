@@ -1,4 +1,4 @@
-.header {
+.page-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.header-info {
+.page-header__branding {
     display: flex;
     flex-direction: row;
     justify-content: center;
