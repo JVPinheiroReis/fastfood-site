@@ -7,3 +7,31 @@
     padding: 0;
     margin: 0 0.5em 0 0.5em;
 }
+
+.nav-menu__a {
+    display: block;
+
+    background-color: var(--red);
+    color: var(--color-secondary);
+    border: solid 0.1em black;
+
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    padding: 0.25em;
+    border-radius: 0.25em;
+
+    box-shadow: 0.1em 0.1em 1px black;
+
+    transform: translate(-0.1em, -0.1em);
+    transition: all 100ms ease-out;
+}
+
+.nav-menu__a:hover {
+    box-shadow: 0.2em 0.2em 2px black;
+    transform: translate(-0.2em, -0.2em);
+}
+
+.nav-menu__a:active {
+    box-shadow: none;
+    transform: none;
+}

@@ -5,12 +5,12 @@ export default function NavMenu() {
         <nav>
             <ul className="nav-menu">
                 <li>
-                    <a className="filled-button" href="/about">
+                    <a className="nav-menu__a" href="/about">
                         Sobre
                     </a>
                 </li>
                 <li>
-                    <a className="filled-button" href="/contacts">
+                    <a className="nav-menu__a" href="/contacts">
                         Contato
                     </a>
                 </li>
