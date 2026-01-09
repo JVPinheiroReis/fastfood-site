@@ -1,7 +1,9 @@
+import PageHeader from '@/components/PageHeader'
+import ProductList from '@/components/ProductList'
+import WhoWeAre from '@/components/WhoWeAre'
+
 import './App.css'
-import PageHeader from './components/PageHeader'
-import ProductList from './components/ProductList'
-import WhoWeAre from './components/WhoWeAre'
+import DeliverWays from './components/DeliverWays'
 
 export default function App() {
     return (
@@ -15,6 +17,10 @@ export default function App() {
                 <section>
                     <h2 className="app-container__h2">Veja nossos produtos</h2>
                     <ProductList />
+                </section>
+                <section>
+                    <h2 className="app-container__h2">Formas de entrega</h2>
+                    <DeliverWays />
                 </section>
             </main>
         </div>

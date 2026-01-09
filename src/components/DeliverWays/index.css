@@ -1,0 +1,12 @@
+.deliver-ways {
+    display: flex;
+    flex-direction: row;
+
+    gap: 3em;
+    margin: 3em;
+}
+
+.deliver-ways__image-card img {
+    width: 100%;
+    object-fit: contain;
+}

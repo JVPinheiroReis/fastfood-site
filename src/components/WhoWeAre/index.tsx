@@ -7,7 +7,7 @@ export default function WhoWeAre() {
             <p className="who-we-are__p">
                 <b>Olá, seja muito bem vindo.</b>
                 <br />
-                Nós somos uma rede de lanchonetes chamada Big Foods e vendemos,
+                Somos uma rede de lanchonetes chamada Big Foods e vendemos,
                 principalmente, hambúrgueres e acompanhamentos.
             </p>
             <img
