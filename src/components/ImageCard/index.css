@@ -32,7 +32,8 @@
 
 .image-card__caption {
     justify-content: center;
-    align-content: center;
+    align-items: center;
+
     position: absolute;
     transition: all 0.5s;
 

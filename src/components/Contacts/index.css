@@ -1,20 +1,25 @@
 .contact-container {
     display: flex;
+
     justify-content: center;
-    align-content: center;
+    align-items: center;
+
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .contact-list {
     display: flex;
     flex-direction: row;
 
+    justify-content: center;
+    align-items: center;
+
     margin: 0;
+    padding: 0;
 }
 
 .contact-list__li {
-    justify-content: center;
-    align-content: center;
-
     margin-right: 0.3em;
     margin-left: 0.3em;
 }
