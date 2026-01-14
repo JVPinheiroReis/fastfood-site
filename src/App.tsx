@@ -1,9 +1,9 @@
+import DeliverWays from '@/components/DeliverWays'
+import Menu from '@/components/Menu'
 import PageHeader from '@/components/PageHeader'
 import Presentation from '@/components/Presentation'
-import ProductList from '@/components/ProductList'
 
 import './App.css'
-import DeliverWays from './components/DeliverWays'
 
 export default function App() {
     return (
@@ -16,7 +16,7 @@ export default function App() {
                 </section>
                 <section>
                     <h2 className="app-container__h2">Veja nossos produtos</h2>
-                    <ProductList />
+                    <Menu />
                 </section>
                 <section>
                     <h2 className="app-container__h2">Formas de entrega</h2>

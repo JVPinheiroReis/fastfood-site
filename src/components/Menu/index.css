@@ -1,0 +1,35 @@
+.menu table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    font-size: 0.8em;
+}
+
+.menu th,
+td {
+    text-align: center;
+
+    margin: 0;
+    padding: 0.3em;
+
+    border: 1px solid #000000;
+}
+
+.menu thead,
+tfoot {
+    background-color: rgb(228 240 245);
+}
+
+.menu tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+.menu caption {
+    caption-side: top;
+
+    font-weight: bold;
+
+    padding: 1em;
+    text-decoration: underline;
+}
