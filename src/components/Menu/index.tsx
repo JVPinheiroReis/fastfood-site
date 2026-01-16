@@ -13,7 +13,6 @@ export default function Menu() {
                         <th scope="col" rowSpan={2}>
                             Ingredientes
                         </th>
-
                         <th scope="col" colSpan={3}>
                             Valor
                         </th>
@@ -59,6 +58,57 @@ export default function Menu() {
                         <td>R$32,00</td>
                         <td>R$36,00</td>
                         <td>R$49,00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <caption>Bebidas</caption>
+                <thead>
+                    <tr>
+                        <th scope="col" rowSpan={2}>
+                            Produto
+                        </th>
+                        <th scope="col" rowSpan={2}>
+                            Opção
+                        </th>
+                        <th scope="col" colSpan={3}>
+                            Valor
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>300ml</th>
+                        <th>500ml</th>
+                        <th>1.5L</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">H2O</th>
+                        <td>Normal</td>
+                        <td>R$5,00</td>
+                        <td>R$6,50</td>
+                        <td>R$15,00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">H2O</th>
+                        <td>Limoneto</td>
+                        <td>R$6,00</td>
+                        <td>R$7,50</td>
+                        <td>R$18,00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Coca-cola</th>
+                        <td>Comum</td>
+                        <td>R$5,00</td>
+                        <td>R$6,50</td>
+                        <td>R$9,00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Coca-cola</th>
+                        <td>Diet</td>
+                        <td>R$7,00</td>
+                        <td>R$9,50</td>
+                        <td>R$14,00</td>
                     </tr>
                 </tbody>
             </table>
